@@ -17,4 +17,4 @@ jobs:
       - name: Push to hub
         env:
           HF_TOKEN: ${{ secrets.HF_TOKEN }}
-        run: git push https://Navjot90:$HF_TOKEN@huggingface.co/spaces/Navjot90/Navjot90/Search_Engine_ll main
+        run: git push https://Navjot90:$HF_TOKEN@huggingface.co/spaces/Navjot90/Search_Engine_ll main
